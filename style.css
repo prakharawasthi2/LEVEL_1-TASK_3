@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(50, 129, 129);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 50vh;
+    width: 30vw;
+    background-color: #f8f8f8;
+    border-radius: 5%;
+}
+.box h2{
+    text-align: center;
+    margin-top: 1em;
+}
+.box input{
+    color: rgb(138, 138, 138);
+    height: 4vh;
+    width: 10vw;
+    margin-top: 4em;
+    margin-left: -0.5em;
+    position: relative;
+    top: 1.4em;
+    right: 2.2em;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid  rgb(88, 88, 88);
+    background-color: #f8f8f8;
+    font-size:1.4vw ;
+}
+.box label{
+    position: relative;
+    left: 10%;
+    top: -2em;
+    font-size:1.3em;
+    color: rgb(88, 88, 88);
+}
+select{
+    background-color: #fff;
+    border-radius: 5%;
+    width: 12vw;
+    height: 4vh;
+    border: none;
+    outline: none;
+    font-size: 1.4em;
+}
+.box option{
+    color: rgb(0, 0, 0);
+}
+.box #result{
+    background-color:#fff;
+    height: 4vh;
+    width: 25vw;
+    margin-left: 4.1em;
+    margin-top: 1.5em;
+    border-radius: 5%;
+    font-size: 1.8em;
+}
+button{
+    color:#fff;
+    font-size: 1.5em;
+    padding: 0.5em;
+    width: 85%;
+    margin-top: 3em;
+    margin-left: 1.75em;
+    background-color: rgb(26, 83, 148);
+    border-radius: 10px;
+}
